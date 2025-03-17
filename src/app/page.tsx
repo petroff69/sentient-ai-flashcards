@@ -33,7 +33,7 @@ export default function Home() {
                         className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800 px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50 dark:hover:bg-gray-700"
                     >
                         <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        Sentient AI Flashcards is now public!
+                        Sentient AI Flashcards вече е активен!
                         </p>
                     </motion.div>
 
@@ -44,9 +44,9 @@ export default function Home() {
                         viewport={{ once: true }}
                         className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl text-gray-900 dark:text-gray-100"
                     >
-                        Flashcards instantly{" "}
-                        <span className="text-blue-600">wisdom,</span>{" "}
-                        endlessly.
+                        Флашкарти с ИИ{" "}
+                        <span className="text-blue-600">с образователна,</span>{" "}
+                        цел.
                     </motion.h1>
 
                     <motion.p
@@ -56,10 +56,7 @@ export default function Home() {
                         viewport={{ once: true }}
                         className="mt-5 max-w-prose text-zinc-700 dark:text-zinc-300 sm:text-lg"
                     >
-                        Sentient AI lets you create powerful flashcards in
-                        seconds. Just upload your notes and start mastering
-                        concepts faster, with AI that helps you understand more
-                        deeply.
+                       Sentient AI ви позволява да създавате мощни флашкарти за секунди. Просто качете своите записки и започнете да усвоявате концепциите по-бързо с помощта на AI, който ви помага да разбирате по-задълбочено.
                     </motion.p>
 
                     <motion.div
@@ -77,7 +74,7 @@ export default function Home() {
                             )}`}
                             href="/generate"
                         >
-                            Get started <ArrowRight className="ml-2 h-5 w-5" />
+                            Започнете <ArrowRight className="ml-2 h-5 w-5" />
                         </Link>
                     </motion.div>
                 </MaxWidthWrapper>
@@ -154,11 +151,10 @@ export default function Home() {
                                 viewport={{ once: true }}
                                 className="mt-2 font-bold text-4xl text-gray-900 dark:text-gray-100 sm:text-5xl"
                             >
-                                Start creating flashcards in seconds
+                                Започнете да създавате флашкарти за секунди.
                             </motion.h2>
                             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                                Creating flashcards from your PDF files has
-                                never been easier than with FlashFathom AI
+                               Създаването на флашкарти от вашите PDF файлове никога не е било по-лесно със Sentient AI
                             </p>
                         </div>
                     </div>
@@ -183,17 +179,17 @@ export default function Home() {
                                     </span>
                                     <span className="text-xl font-semibold">
                                         {step === 1
-                                            ? "Sign up for an account"
+                                            ? "Регистрирайте се за акаунт."
                                             : step === 2
-                                            ? "Upload your PDF file"
-                                            : "Start creating flashcards by typing"}
+                                            ? "Качете своя текст."
+                                            : "Започнете да създавате флашкарти, като пишете."}
                                     </span>
                                     <span className="mt-2 text-zinc-700 dark:text-zinc-400">
                                         {step === 1
-                                            ? "Either starting out with a free plan or choose our pro plan."
+                                            ? Можете да започнете с безплатен план или да изберете нашия про план."
                                             : step === 2
-                                            ? "We'll process your file and make it ready for you to create flashcards with it."
-                                            : "It's that simple. Try out FlashFathom AI today"}
+                                            ? "Ще обработим вашия файл и ще го подготвим, за да можете да създавате флашкарти с него."
+                                            : "Толкова е лесно! Изпробвайте Sentient AI днес."}
                                     </span>
                                 </div>
                             </motion.li>
