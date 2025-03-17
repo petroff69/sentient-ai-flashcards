@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -30,10 +31,10 @@ export default function Home() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.2, duration: 0.6 }}
                         viewport={{ once: true }}
-                        className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800 px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50 dark:hover:bg-gray-700"
+                        className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800"
                     >
                         <p className="text-sm font-semibold text-gray-700 dark:text-gray-300">
-                        Sentient AI Flashcards вече е активен!
+                            Sentient AI Flashcards вече е активен!
                         </p>
                     </motion.div>
 
@@ -56,7 +57,7 @@ export default function Home() {
                         viewport={{ once: true }}
                         className="mt-5 max-w-prose text-zinc-700 dark:text-zinc-300 sm:text-lg"
                     >
-                       Sentient AI ви позволява да създавате мощни флашкарти за секунди. Просто качете своите записки и започнете да усвоявате концепциите по-бързо с помощта на AI, който ви помага да разбирате по-задълбочено.
+                        Sentient AI ви позволява да създавате мощни флашкарти за секунди. Просто качете своите записки и започнете.
                     </motion.p>
 
                     <motion.div
@@ -104,7 +105,7 @@ export default function Home() {
                                 }}
                                 style={{
                                     clipPath:
-                                        "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+                                        "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 1.0% 64.9%)",
                                 }}
                                 className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#89bcfc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
                             />
@@ -154,7 +155,7 @@ export default function Home() {
                                 Започнете да създавате флашкарти за секунди.
                             </motion.h2>
                             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                               Създаването на флашкарти от вашите PDF файлове никога не е било по-лесно със Sentient AI
+                                Създаването на флашкарти от вашите PDF файлове никога не е било по-лесно със Sentient AI
                             </p>
                         </div>
                     </div>
@@ -186,7 +187,7 @@ export default function Home() {
                                     </span>
                                     <span className="mt-2 text-zinc-700 dark:text-zinc-400">
                                         {step === 1
-                                            ? Можете да започнете с безплатен план или да изберете нашия про план."
+                                            ? "Можете да започнете с безплатен план или да изберете нашия про план."
                                             : step === 2
                                             ? "Ще обработим вашия файл и ще го подготвим, за да можете да създавате флашкарти с него."
                                             : "Толкова е лесно! Изпробвайте Sentient AI днес."}
