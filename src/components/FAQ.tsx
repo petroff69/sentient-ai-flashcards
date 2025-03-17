@@ -74,36 +74,38 @@ const FaqsCard = ({ faqsList, idx }: FaqsCardProps) => {
 export default function FAQSection(): JSX.Element {
     const faqsList: { q: string; a: string }[] = [
         {
-            "q": "How does the AI turn my content into flashcards?",
-            "a": "Our AI scans your content, picks out the most important ideas and terms, and turns them into flashcards that help boost your learning."
+            "q": "Как AI превръща моето съдържание във флашкарти?",
+            "a": "Нашият AI сканира съдържанието ви, избира най-важните идеи и термини и ги превръща във флашкарти, които помагат за подобряване на вашето обучение.."
           },
-          {
-            "q": "Can I personalize my flashcards?",
-            "a": "Absolutely! You can tweak the questions, answers, and even add your own notes to make the flashcards fit your unique study style."
-          },
-          {
-            "q": "Is there a limit on flashcards?",
-            "a": "With the Basic plan, you can make up to 100 flashcards. Pro and Enterprise plans unlock limitless flashcard creation!"
-          },
-          {
-            "q": "Do you offer study modes?",
-            "a": "Yes! Explore different study modes like spaced repetition, quizzes, and practice tests to strengthen your knowledge."
-          },
-          {
-            "q": "Can I share my flashcards?",
-            "a": "Definitely! Share your flashcards with friends, study groups, or even publish them for others to benefit from."
-          }
+        [
+  {
+    "q": "Мога ли да персонализирам моите флашкарти?",
+    "a": "Абсолютно! Можете да променяте въпросите, отговорите и дори да добавяте свои бележки, за да направите флашкартите по съобразени с вашия уникален стил на учене."
+  },
+  {
+    "q": "Има ли лимит за флашкартите?",
+    "a": "С основния план можете да създадете до 100 флашкарти. Про и Ентерпрайз плановете отключват неограничено създаване на флашкарти!"
+  },
+  {
+    "q": "Предлагате ли режими за учене?",
+    "a": "Да! Изследвайте различни режими за учене като разпределено повторение, тестове и практическо изпитване, за да укрепите знанието си."
+  },
+  {
+    "q": "Мога ли да споделям моите флашкарти?",
+    "a": "Определено! Споделяйте вашите флашкарти с приятели, учебни групи или дори ги публикувайте, за да може и другите да се възползват."
+  }
+]
+
     ];
 
     return (
         <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8">
             <div className="space-y-3 text-center">
                 <h1 className="text-3xl text-foreground font-semibold">
-                    Frequently Asked Questions
+                   Често задавани въпроси
                 </h1>
                 <p className="text-muted-foreground max-w-lg mx-auto text-lg">
-                    Have more questions? Check out our answers below or contact us for
-                    further assistance.
+                 Имате още въпроси? Проверете отговорите ни по-долу или се свържете с нас за допълнителна помощ.
                 </p>
             </div>
             <motion.div 
